@@ -4,7 +4,9 @@
 
 ## Architecture
 > Data binding to combine data source and view page and updata through two-way
+
 > Using geolocation to access current location
+
 > INotifyPropertyChanged to handle property change events and update data them 
 
 ## User Interface
