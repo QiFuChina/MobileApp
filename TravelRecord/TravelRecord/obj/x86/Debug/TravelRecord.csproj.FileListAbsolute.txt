@@ -1,0 +1,31 @@
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\TravelRecord.csprojResolveAssemblyReference.cache
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\App.g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\App.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\MainPage.g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\MainPage.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Main.g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Main.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Registration .g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Registration .g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Show.g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Show.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Start.g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Start.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Edit.g.i.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Edit.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\App.xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Show.xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\MainPage.xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Edit.xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Main.xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Registration .xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Start.xaml
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\App.xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Show.xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\MainPage.xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Edit.xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Main.xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Registration .xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\View\Start.xbf
+D:\文档\VS\TravelRecord\TravelRecord\obj\x86\Debug\XamlSaveStateFile.xml
