@@ -30,6 +30,48 @@ namespace TravelRecord.View
 
         private void Location_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            var access = await Geolocator.RequestAccessAsync();
+            switch (access)
+            {
+                case GeolocationAccessStatus.Allowed:
+                    // set some stuff up now.
+                    tblStatus.Text = "Setting up location services";
+                    myGeo = new Geolocator();
+                    // myGeo.StatusChanged += MyGeo_StatusChanged;
+                    //myGeo.PositionChanged not needed just now.
+                    myGeo.DesiredAccuracy = PositionAccuracy.High;
+                    break;
+                case GeolocationAccessStatus.Denied:
+                case GeolocationAccessStatus.Unspecified:
+                    // ask the user for something here if things go wrong.
+                    tblStatus.Text = "Can't access location services";
+                    break;
+                default:
+                    break;
+            }
+            TextBlock ShowText;
+            // get the current locations
+            try
+            {
+                _pos = await myGeo.GetGeopositionAsync();
+            }
+            catch (Exception ex)
+            {
+
+                return;
+            }
+            BasicGeoposition myLocation = new BasicGeoposition
+            {
+                Longitude = _pos.Coordinate.Point.Position.Longitude,
+                Latitude = _pos.Coordinate.Point.Position.Latitude
+            };
+            Geopoint pointToReverseGeocode = new Geopoint(myLocation);
+            MapLocationFinderResult result = await MapLocationFinder.FindLocationsAtAsync(pointToReverseGeocode);
+            ShowText = new TextBlock();
+            ShowText.Text = "Location: " + result.Locations[0].Address.Country + result.Locations[0].Address.District + result.Locations[0].Address.Town + result.Locations[0].Address.Street;
+
+
+
 
         }
 
